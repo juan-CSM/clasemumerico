@@ -1,0 +1,30 @@
+---
+title: "Graficando el cerro de la silla con splines cubicos"
+author: "Juan Carlos Sifuentes Montañez"
+date: "18/10/2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Objetivo
+<p align="center">
+  <img src="/Users/juc1987/prog/progr/archivos/Cerro.jpg" width="750px" height="300px"/>
+</p>
+
+Se graficara la cima del cerro usando interpolacion mediante splines cubicos
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
